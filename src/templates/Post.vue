@@ -3,6 +3,9 @@
     <div class="markdown-body">
       <h1>{{ $page.post.title }}</h1>
       <img :src="$page.post.featuredImage" alt="blog">
+      <ul v-for="tag in $page.post.tags">
+        <li><g-link>{{ tag.title }}</g-link></li>
+      </ul>
       <div v-html="$page.post.content" />
     </div>
   </BlogLayout>
@@ -14,6 +17,9 @@ query Post ($path: String!) {
     title
     content
     featuredImage
+    tags {
+      title
+    }
   }
 }
 </page-query>

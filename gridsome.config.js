@@ -20,7 +20,10 @@ module.exports = {
       options: {
         path: 'blog/**/*.md',
         typeName: 'Post',
-        remark: {}
+        remark: {},
+        refs: {
+          tags: 'Tag'
+        }
       }
     }
   ]

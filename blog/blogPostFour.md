@@ -1,6 +1,7 @@
 ---
 title: Blog Post Four
 featuredImage: /uploads/technical.jpg
+tags: ['4']
 ---
 # Blog Post Four
 

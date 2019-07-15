@@ -27,5 +27,13 @@ module.exports = function (api) {
         }
       })
     }
+
+    const tags = store.addContentType('Tag')
+    for (let i = 1; i <= 5; i++) {
+      tags.addNode({
+        id: '' + i,
+        title: 'https://edverest.co/' + i
+      })
+    }
   })
 }

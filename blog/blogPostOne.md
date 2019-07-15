@@ -1,6 +1,7 @@
 ---
 title: Blog Post One
 featuredImage: /uploads/puppy1.jpg
+tags: ['1']
 ---
 
 # Blog Post One
